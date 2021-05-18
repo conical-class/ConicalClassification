@@ -33,7 +33,7 @@ https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
 We calculate the frequency dictionary via the code found in genWordFrequencyDict.ipynb The dataset used for this task comes the word counts csv file that can be found here:
 https://www.kaggle.com/rtatman/english-word-frequency?select=unigram_freq.csv
 
-As Normal Exclusion is built the backbone of Foremans's Bi-Normal Separation paper, we build Normal Exclusion on his provided codebase (specifically the ficlearn subfolder) as well:
+As Normal Exclusion is built on the backbone of Forman's Bi-Normal Separation paper, we build Normal Exclusion on his provided codebase (specifically the ficlearn subfolder) as well:
 https://github.com/dumoulma/fic-prototype
 
 Place the file normalExclusion.py into the feature_extraction subfolder of ficlearn. A simple example showing how it can work within a one-class classification problem is provided in testNE.ipynb.
