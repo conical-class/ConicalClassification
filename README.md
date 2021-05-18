@@ -30,7 +30,7 @@ https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
 https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
 
 ## Normal Exclusion
-We calculate the frequency dictionary via the code found in genWordFrequencyDict.ipynb The dataset used for this task comes the word counts csv file that can be found here:
+We calculate the frequency dictionary via the code found in genWordFrequencyDict.ipynb. The dataset used for this task comes the word counts csv file that can be found here:
 https://www.kaggle.com/rtatman/english-word-frequency?select=unigram_freq.csv
 
 As Normal Exclusion is built on the backbone of Forman's Bi-Normal Separation paper, we build Normal Exclusion on his provided codebase (specifically the ficlearn subfolder) as well:
