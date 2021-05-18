@@ -1,7 +1,7 @@
 # ConicalClassification
 Supplementary Materials for Conical Classification For Computationally Efficient One-Class Topic Determination
 
-## Datasets
+## Evaluation Datasets
 Datasets are loaded via the API found in load_datasets. This loads documents from each corpus and stores them as a list of strings in X, and returns y which has value 1 for documents of the target class, and 0 otherwise.
 
 Each of the datasets can be downloaded from the links below. As detailed in the paper, we extract text information from each dataset and store them in text files under their respective subfolders within Datasets. For example, all data for the MoviePlots dataset will be held within txt files in Datasets/MoviePlots.
@@ -27,3 +27,10 @@ https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
 
 ### Keylogger
 https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
+
+## Normal Exclusion
+We calculate the frequency dictionary via the code found in genWordFrequencyDict.ipynb The dataset used for this task comes the word counts csv file that can be found here:
+https://www.kaggle.com/rtatman/english-word-frequency?select=unigram_freq.csv
+
+As Normal Exclusion is built the backbone of Foremans's Bi-Normal Separation paper, we build Normal Exclusion on his provided codebase (specifically the ficlearn subfolder) as well:
+https://github.com/dumoulma/fic-prototype
