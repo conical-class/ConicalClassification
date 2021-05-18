@@ -35,3 +35,5 @@ https://www.kaggle.com/rtatman/english-word-frequency?select=unigram_freq.csv
 
 As Normal Exclusion is built the backbone of Foremans's Bi-Normal Separation paper, we build Normal Exclusion on his provided codebase (specifically the ficlearn subfolder) as well:
 https://github.com/dumoulma/fic-prototype
+
+Place the file normalExclusion.py into the feature_extraction subfolder of ficlearn. A simple example showing how it can work within a one-class classification problem is provided in testNE.ipynb. 
