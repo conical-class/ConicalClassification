@@ -38,4 +38,4 @@ https://github.com/dumoulma/fic-prototype
 
 Place the file normalExclusion.py into the feature_extraction subfolder of ficlearn. A simple example showing how it can work within a one-class classification problem is provided in testNE.ipynb.
 
-We utilize the NETransformer in tandem with sklearn's TfidfTransformer in order to calculate the NE-TF used as the VSM model for the paper. A simple example showing how it can work within a one-class classification problem is provided in testNE_TF.ipynb.
+We utilize the NETransformer in tandem with sklearn's TfidfTransformer in order to calculate the NE-TF used as the VSM model for the paper, as shown in NE_TF.py. A simple example showing how it can work within a one-class classification problem is provided in testNE_TF.ipynb.
