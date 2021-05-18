@@ -7,3 +7,23 @@ Datasets are loaded via the API found in load_datasets. This loads documents fro
 Each of the datasets can be downloaded from the links below. As detailed in the paper, we extract text information from each dataset and store them in text files under their respective subfolders within Datasets. For example, all data for the MoviePlots dataset will be held within txt files in Datasets/MoviePlots.
 
 ### MoviePlots
+https://www.kaggle.com/jrobischon/wikipedia-movie-plots
+
+### MedicalTranscriptions
+https://www.kaggle.com/tboyle10/medicaltranscriptions
+
+### Ecommerce
+https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
+
+### FakeNews
+https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv
+
+### Jobs
+https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv
+https://www.kaggle.com/PromptCloudHQ/us-jobs-on-monstercom?select=monster_com-job_sample.csv
+
+### Wikileaks
+https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
+
+### Keylogger
+https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
