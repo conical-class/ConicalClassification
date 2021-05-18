@@ -1,10 +1,5 @@
 from sklearn.datasets import load_files
 import numpy as np
-    
-#https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
-#https://www.kaggle.com/tboyle10/medicaltranscriptions
-#https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv
-#https://www.kaggle.com/jrobischon/wikipedia-movie-plots
 
 def load_binary_data(category_lst=["ECommerce", "FakeNews", "Jobs", "Keylogger", "MedicalTranscriptions", "MoviePlots", "Wikileaks"], target="Wikileaks"):
     dataset = load_files("Datasets", categories=category_lst, load_content=True)
