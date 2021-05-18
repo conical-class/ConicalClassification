@@ -21,6 +21,7 @@ https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.cs
 ### Jobs
 https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset?select=Fake.csv
 https://www.kaggle.com/PromptCloudHQ/us-jobs-on-monstercom?select=monster_com-job_sample.csv
+https://www.kaggle.com/PromptCloudHQ/jobs-on-naukricom?select=naukri_com-job_sample.csv
 
 ### Wikileaks
 https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1
