@@ -51,4 +51,6 @@ A demo of it in action can be found in demoConical.ipynb.
 For hyperparameter tuning, we use our training and validation sets to optimze each model via the hyperopt library: http://hyperopt.github.io/hyperopt/
 We allow each model the ability try 20 sets of hyperparameters, with the set of hyperparameters with the highest Balanced Accuracy on our validation set being chosen.
 
+After hyperparamter tuning, we consider our validation set burned; it does not get used as part of our training or test sets during evaluation. (We disregard this step for the demo code in this repository for the sake of code clarity.)
+
 A demonstration of the tuning methodology can be found in hoptConical.ipynb.
