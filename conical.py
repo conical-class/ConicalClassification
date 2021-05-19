@@ -33,19 +33,8 @@ class CorpusClassification():
 		self.cone_class = None 
 		self.vectorizer = NE_TF(**argDict)
 
-    #We do not use this function for evaluation in the paper
-	def clean_corpus(self, corpus):
-		cleaned = []
-		for doc in corpus:
-			doc = doc.translate(str.maketrans(string.digits + string.punctuation, " "*len(string.digits + string.punctuation)))
-			doc = markov_model.filter_text(doc)
-			doc = nltk.tokenize.word_tokenize(doc)
-			doc = [lemma.lemmatize(word).lower() for word in doc if (lemma.lemmatize(word).lower() not in stop_words)]
-			cleaned.append(" ".join(doc))
-		return cleaned
-
-	def transform(self, cleaned):
-		return self.vectorizer.transform(cleaned)
+	def transform(self, corpus):
+		return self.vectorizer.transform(corpus)
 
 	def fit(self, corpus, y=None):
 		self.vectorizer.fit(corpus, y)
