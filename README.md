@@ -44,7 +44,7 @@ We utilize the NETransformer in tandem with sklearn's TfidfTransformer in order 
 
 As we have shown in the paper, conical classification is very simple to implement, very efficient, and yet very powerful. The implementation used for evaluation can be found in conical.py.
 
-A demo of it in action can be found in testConical.ipynb.
+A demo of it in action can be found in demoConical.ipynb.
 
 ## Hyperparameter Tuning
 
