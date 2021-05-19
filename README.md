@@ -39,3 +39,10 @@ https://github.com/dumoulma/fic-prototype
 Place the file normalExclusion.py into the feature_extraction subfolder of ficlearn. A simple example showing how it can work within a one-class classification problem is provided in testNE.ipynb.
 
 We utilize the NETransformer in tandem with sklearn's TfidfTransformer in order to calculate the NE-TF used as the VSM model for the paper, as shown in NE_TF.py. A simple example showing how it can work within a one-class classification problem is provided in testNE_TF.ipynb.
+
+## Hyperparameter Tuning
+
+For hyperparameter tuning, we use our training and validation sets to optimze each model via the hyperopt library: http://hyperopt.github.io/hyperopt/
+We allow each model the ability try 20 sets of hyperparameters, with the set of hyperparameters with the highest Balanced Accuracy on our validation set being chosen.
+
+A demonstration of the tuning methodology can be found in hoptConical.ipynb.
